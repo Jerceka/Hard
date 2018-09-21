@@ -13,46 +13,58 @@
 <body>
   <div class="main">
     <header>
-      <ul class="header">
-      <li class="logo-header">
+      <div class="logo-header">
         <a href="#"><h2>Jerceka</h2></a>
-      </li>
+      </div>
         <!--on that div idk how to make sign in so i will make it as link now-->
-      <li class="id" >
-        <a href="#"><i class="fa fa-user"></i><b>Sign in</b></a>
-      </li>
-      <li>
-        <a href="#" class="l-home">Home</a>
-      </li>
-      <li>
-        <a href="#" class="l-news">News</a>
-      </li>
-      <li>
-        <a href="#" class="l-sport">Sport</a>
-      </li>
-      <li>
-        <a href="#" class="l-weater">Weather</a>
-      </li>
-      <li>
-        <a href="#" class="l-shop">Shop</a>
-      </li>
-      <li>
-        <a href="#" class="l-earth">Earth</a>
-      </li>
-      <li>
-        <a href="#" class="l-travel">Travel</a>
-      </li>
-      <li>
-        <a href="#" class="l-capital">Capital</a>
-      </li>
-      <li class="more">
-        <a href="#">More</a>
-      </li>
-      <li class="search">
-        <a href="#">Search</a>
-      </li>
-    </ul>
-    <div class="list-more">
+      <div class="id" >
+        <a href="#"><i class="fa fa-user"></i>Sign in</a>
+      </div>
+      <div class="l-home">
+        <a href="#">Home</a>
+      </div>
+      <div class="l-news">
+        <a href="#">News</a>
+      </div>
+      <div class="l-sport">
+        <a href="#">Sport</a>
+      </div>
+      <div class="l-weather">
+        <a href="#">Weather</a>
+      </div>
+      <div class="l-shop">
+        <a href="#">Shop</a>
+      </div>
+      <div class="l-earth">
+        <a href="#">Earth</a>
+      </div>
+      <div class="l-travel">
+        <a href="#">Travel</a>
+      </div>
+      <div class="l-capital">
+        <a href="#">Capital</a>
+      </div>
+      <!--here the arrow need to edit-->
+      <!-- i don't want black line only on hover over it i need it more time-->
+      <div id="more">
+        <pre>More        &#8628;</pre>
+      </div>
+      <script>
+          $(document).ready(function(){
+              $("#more").click(function(){
+                  $("#list-more").slideToggle("fast");
+              });
+          });
+        </script>
+        <!--i want php her on action still don't know it-->
+      <div class="search">
+        <form action="">
+          <input type="search" placeholder=" Search" name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </header>
+    <div id="list-more">
       <div class="list-header">
         <h2>more</h2>
       </div>
@@ -83,7 +95,6 @@
         <a href="#">Nature</a>
       </div>
     </div>
-    </header>
     <nav>
     </nav>
     <section>

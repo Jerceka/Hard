@@ -10,36 +10,92 @@ a{
 /*Header*/
 header{
   max-width: 100%;
+  display: flex;
+}
+header div{
+  border-right: 0.5px solid rgb(157, 160, 165);
+  border-bottom: 0.5px solid rgb(157, 160, 165);
+  padding: 15px 22px 5px 22px;
+  cursor: pointer;
+}
+header div a{
+  font-weight: bold;
 }
 .logo-header{
-  margin: 0 !important;
-  padding: 0 !important;
-}
-.header{
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  border-bottom: 1px solid rgb(143, 146, 153);
-}
-.header li{
-  display: inline-block;
-  padding: 10px 23px;
-  margin: 0;
-}
-.header li:nth-child(1n+2){
-  border-left: 1px solid rgb(143, 146, 153);
+  padding: 10px 15px 10px 70px;
 }
 .id{
-  margin-right: 70px !important;
+  padding: 15px 110px 5px 15px;
 }
-.more{
-  margin-right: 70px !important;
-}
-.search{
-  margin-right: 100px !important;
+.id:hover{
+  padding-bottom: 6px;
+  border-bottom: 5px solid rgb(58, 121, 224);
 }
 .l-home:hover{
-  border-bottom: 5px solid rgb(31, 104, 221);
+  padding-bottom: 6px;
+  border-bottom: 5px solid rgb(58, 121, 224);
 }
-/*header list*/
+.l-news:hover{
+  padding-bottom: 6px;
+  border-bottom: 5px solid rgb(73, 14, 30);
+}
+.l-sport:hover{
+  padding-bottom: 6px;
+  border-bottom: 5px solid rgb(183, 209, 14);
+}
+.l-weather:hover{
+  padding-bottom: 6px;
+  border-bottom: 5px solid rgb(80, 202, 229);
+}
+.l-shop:hover{
+  padding-bottom: 6px;
+  border-bottom: 5px solid rgb(67, 132, 216);
+}
+.l-earth:hover{
+  padding-bottom: 6px;
+  border-bottom: 5px solid black;
+}
+.l-travel:hover{
+  padding-bottom: 6px;
+  border-bottom: 5px solid black;
+}
+.l-capital:hover{
+  padding-bottom: 6px;
+  border-bottom: 5px solid rgb(0, 20, 45);
+}
+#more pre{
+  font-weight: bold;
+  font-size: 18px;
+  padding:
+}
+#more:hover{
+  padding-bottom: 6px;
+  border-bottom: 5px solid black;
+}
+#more:active{
+  padding-bottom: 6px;
+  border-bottom: 5px solid black;
+}
+.search{
+  padding: 10px 80px 5px 20px;
+}
+/*the list of more button*/
+#list-more{
+  display: none;
+}
+.search form input{
+  background-color: rgb(227, 228, 229);
+  margin-right: 0px;
+  width: 150px;
+  height: 28px;
+  border: none;
+  line-height: 4px;
+}
+.search form button{
+background-color: rgb(227, 228, 229);
+margin-left: 0px;
+border: none;
+height: 28px;
+width: 30px;
+font-size: 16px;
+}
