@@ -8,13 +8,16 @@ a{
   color: black;
 }
 /*Header*/
+.header-bottom-line{
+  border-bottom: 0.5px solid rgb(157, 160, 165);
+}
 header{
-  max-width: 100%;
   display: flex;
+  max-width: 1330px;
+  margin: auto;
 }
 header div{
   border-right: 0.5px solid rgb(157, 160, 165);
-  border-bottom: 0.5px solid rgb(157, 160, 165);
   padding: 15px 22px 5px 22px;
   cursor: pointer;
 }
@@ -22,10 +25,14 @@ header div a{
   font-weight: bold;
 }
 .logo-header{
-  padding: 10px 15px 10px 70px;
+  padding: 10px 15px 10px 0px;
 }
 .id{
-  padding: 15px 110px 5px 15px;
+  padding: 15px 100px 5px 15px
+}
+.id a pre{
+  font-weight: bold;
+  font-size: 16px;
 }
 .id:hover{
   padding-bottom: 6px;
@@ -66,7 +73,6 @@ header div a{
 #more pre{
   font-weight: bold;
   font-size: 18px;
-  padding:
 }
 #more:hover{
   padding-bottom: 6px;
@@ -77,11 +83,8 @@ header div a{
   border-bottom: 5px solid black;
 }
 .search{
-  padding: 10px 80px 5px 20px;
-}
-/*the list of more button*/
-#list-more{
-  display: none;
+  padding: 10px 0px 5px 20px;
+  border-right: none;
 }
 .search form input{
   background-color: rgb(227, 228, 229);
@@ -89,7 +92,6 @@ header div a{
   width: 150px;
   height: 28px;
   border: none;
-  line-height: 4px;
 }
 .search form button{
 background-color: rgb(227, 228, 229);
@@ -99,3 +101,15 @@ height: 28px;
 width: 30px;
 font-size: 16px;
 }
+/*the list of more button*/
+#list-more{
+  /*display: none;*/
+}
+
+/* another style*/
+@media screen and (max-width: 1248px) {
+  body {
+    background: url("http://www.pupilo.tax/wp-content/uploads/2017/01/page-under-construction.png") no-repeat;
+    background-size: cover;
+    display: none;
+  }
