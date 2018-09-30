@@ -8,9 +8,6 @@ a{
   color: black;
 }
 /*Header*/
-.header-bottom-line{
-  border-bottom: 0.5px solid rgb(157, 160, 165);
-}
 header{
   display: flex;
   max-width: 1330px;
@@ -103,9 +100,40 @@ font-size: 16px;
 }
 /*the list of more button*/
 #list-more{
-  /*display: none;*/
+  display: none;
+  border-top: 0.5px solid lightblue;
+  border-bottom: 0.5px solid lightblue;
 }
-
+.list-more-boxes{
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+}
+.list-part{
+  margin: 20px 0px 30px 0px;
+  display: flex;
+}
+.links{
+  padding: 20px;
+  font-weight: bold;
+  padding: 5px 100px 5px 5px;
+  margin-top: 10px;
+  margin-left: 85px;
+}
+.links:hover{
+  background-color: rgb(74, 75, 76);
+}
+.links:hover a{
+  color: white;
+}
+.third div{
+  padding-right: 70px;
+}
+.list-header div{
+  font-size: 34px;
+  padding: 3px 0px 10px 0px;
+  margin-right: 40px;
+}
 /* another style*/
 @media screen and (max-width: 1248px) {
   body {
