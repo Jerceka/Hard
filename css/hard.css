@@ -134,6 +134,59 @@ font-size: 16px;
   padding: 3px 0px 10px 0px;
   margin-right: 40px;
 }
+/*nav area*/
+nav{
+  background: black;
+}
+nav div{
+  margin: auto;
+  display: flex;
+  max-width: 1330px;
+}
+nav div div{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+nav div div a{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.middle-nav{
+  padding-right: 30px;
+}
+.first-nav , .last-nav{
+  padding-right: 300px;
+}
+/*Article will be to two part head and body*/
+/*1- head of Article*/
+.a-h-image div img{
+  width: 100%;
+  height: auto;
+}
+.a-h-image div p{
+  position: absolute;
+  top: 40%;
+  left: 38%;
+  z-index: 1;
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+/*2- separate to two part */
+.a-body{
+  display: flex;
+}
+/*a- author*/
+
+/*b- separate to two part */
+/*-----tile of article------*/
+.title div{
+  display: flex;
+}
+/*---------article----------*/
+
 /* another style*/
 @media screen and (max-width: 1248px) {
   body {
