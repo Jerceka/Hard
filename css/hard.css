@@ -72,7 +72,7 @@ header div a{
   font-size: 18px;
 }
 #more:hover{
-  padding-bottom: 6px;
+  padding-bottom:4px;
   border-bottom: 5px solid black;
 }
 #more:active{
@@ -154,17 +154,25 @@ nav div div a{
 }
 .middle-nav{
   padding-right: 30px;
+  cursor: pointer;
 }
 .first-nav , .last-nav{
   padding-right: 300px;
 }
+.first-nav a, .last-nav a{
+  cursor: pointer;
+}
 /*Article will be to two part head and body*/
-/*1- head of Article*/
+/*head of Article will separate into part*/
+/*part for Image with Logo*/
+article div{
+  position: relative;
+}
 .a-h-image div img{
   width: 100%;
   height: auto;
 }
-.a-h-image div p{
+.jerceka{
   position: absolute;
   top: 40%;
   left: 38%;
@@ -174,20 +182,76 @@ nav div div a{
   color: white;
   text-align: center;
 }
-/*2- separate to two part */
-.a-body{
+/*that part for header under the image*/
+.under-image{
+  position: absolute;
+  top: 93%;
+  max-width: 100%;
+  left: 3%;
+  right: 3%;
+}
+.author{
+  float: left;
+  background: white;
+  padding: 10px 250px 10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.right-part{
+  float: right;
+}
+.title-f-p{
+  background: orange;
+  color: white;
+  padding: 17px 100px 17px 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.title-s-p{
+  display: flex;
+  background: rgb(74, 75, 76);
+  padding: 8px 0px 8px 15px;
+  font-size: 20px;
+}
+.title-s-p a{
+  color: white;
+}
+.logo-for-title-s-p{
+  padding-right: 40px;
+  padding-left: 20px;
+  padding-top: 7px;
+}
+.logo-for-title-s-p a{
+  border-right: 1px solid white;
+  padding-right: 120px;
+}
+.text-for-title-s-p{
+  padding-top: 7px;
+  padding-right: 250px;
+}
+.more-for-title-s-p{
   display: flex;
 }
-/*a- author*/
-
-/*b- separate to two part */
-/*-----tile of article------*/
-.title div{
-  display: flex;
+.more-for-title-s-p a{
+  border: 2px solid rgb(75, 169, 237);
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
-/*---------article----------*/
+.more-for-title-s-p div{
+  background: rgb(75, 169, 237);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 7px;
+}
+/*the paragraph*/
+.article{
+  float: right;
+  max-width: 50%;
+}
 
-/* another style*/
+/*another style*/
 @media screen and (max-width: 1248px) {
   body {
     background: url("http://www.pupilo.tax/wp-content/uploads/2017/01/page-under-construction.png") no-repeat;
