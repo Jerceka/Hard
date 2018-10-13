@@ -10,29 +10,24 @@ a{
 /*Header*/
 header{
   display: flex;
-  max-width: 1330px;
+  max-width: 1270px;
   margin: auto;
 }
 header div{
   border-right: 0.5px solid rgb(157, 160, 165);
-  padding: 15px 22px 5px 22px;
+  padding: 10px 20px 10px 20px;
   cursor: pointer;
 }
-header div a{
-  font-weight: bold;
-}
 .logo-header{
-  padding: 10px 15px 10px 0px;
+  padding: 6px 15px 0px 0px;
 }
 .id{
-  padding: 15px 100px 5px 15px
+  padding: 10px 100px 5px 15px
 }
 .id a pre{
-  font-weight: bold;
   font-size: 16px;
 }
 .id:hover{
-  padding-bottom: 6px;
   border-bottom: 5px solid rgb(58, 121, 224);
 }
 .l-home:hover{
@@ -68,11 +63,10 @@ header div a{
   border-bottom: 5px solid rgb(0, 20, 45);
 }
 #more pre{
-  font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
 }
 #more:hover{
-  padding-bottom:4px;
+  padding-bottom: 5px;
   border-bottom: 5px solid black;
 }
 #more:active{
@@ -80,7 +74,7 @@ header div a{
   border-bottom: 5px solid black;
 }
 .search{
-  padding: 10px 0px 5px 20px;
+  padding: 6px 0px 0px 20px;
   border-right: none;
 }
 .search form input{
@@ -105,20 +99,21 @@ font-size: 16px;
   border-bottom: 0.5px solid lightblue;
 }
 .list-more-boxes{
-  max-width: 1400px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
 }
 .list-part{
-  margin: 20px 0px 30px 0px;
+  margin: 0px 0px 10px 0px;
   display: flex;
 }
 .links{
   padding: 20px;
+  font-size: 14px;
   font-weight: bold;
-  padding: 5px 100px 5px 5px;
+  padding: 5px 85px 5px 5px;
   margin-top: 10px;
-  margin-left: 85px;
+  margin-left: 70px;
 }
 .links:hover{
   background-color: rgb(74, 75, 76);
@@ -127,21 +122,22 @@ font-size: 16px;
   color: white;
 }
 .third div{
-  padding-right: 70px;
+  padding-right: 55px;
 }
 .list-header div{
-  font-size: 34px;
-  padding: 3px 0px 10px 0px;
+  font-size: 26px;
+  padding: 0px 0px 10px 0px;
   margin-right: 40px;
+  margin-top: 5px;
 }
 /*nav area*/
 nav{
   background: black;
 }
 nav div{
-  margin: auto;
   display: flex;
-  max-width: 1330px;
+  margin: auto;
+  max-width: 1270px;
 }
 nav div div{
   padding-top: 15px;
@@ -150,14 +146,15 @@ nav div div{
 nav div div a{
   color: white;
   font-weight: bold;
-  font-size: 18px;
 }
 .middle-nav{
   padding-right: 30px;
   cursor: pointer;
+  margin: 0;
 }
 .first-nav , .last-nav{
   padding-right: 300px;
+  margin: 0;
 }
 .first-nav a, .last-nav a{
   cursor: pointer;
@@ -174,8 +171,8 @@ article div{
 }
 .jerceka{
   position: absolute;
-  top: 40%;
-  left: 38%;
+  top: 35%;
+  left: 35%;
   z-index: 1;
   font-size: 100px;
   font-weight: bold;
@@ -194,7 +191,6 @@ article div{
   float: left;
   background: white;
   padding: 10px 250px 10px 15px;
-  font-size: 20px;
   font-weight: bold;
 }
 .right-part{
@@ -203,8 +199,8 @@ article div{
 .title-f-p{
   background: orange;
   color: white;
-  padding: 17px 100px 17px 15px;
-  font-size: 24px;
+  padding: 17px 70px 17px 15px;
+  font-size: 22px;
   font-weight: bold;
 }
 .title-s-p{
@@ -217,17 +213,18 @@ article div{
   color: white;
 }
 .logo-for-title-s-p{
-  padding-right: 40px;
+  padding-right: 30px;
   padding-left: 20px;
   padding-top: 7px;
 }
 .logo-for-title-s-p a{
   border-right: 1px solid white;
-  padding-right: 120px;
+  padding-right: 100px;
 }
 .text-for-title-s-p{
   padding-top: 7px;
-  padding-right: 250px;
+  padding-right: 170px;
+  font-size: 20px;
 }
 .more-for-title-s-p{
   display: flex;
@@ -235,8 +232,8 @@ article div{
 .more-for-title-s-p a{
   border: 2px solid rgb(75, 169, 237);
   padding-top: 5px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .more-for-title-s-p div{
   background: rgb(75, 169, 237);
@@ -246,11 +243,45 @@ article div{
   padding: 5px 7px;
 }
 /*the paragraph*/
-.article{
-  float: right;
-  max-width: 50%;
+.idk{
+  height: 1400px;
 }
+.article div{
+  float: right;
+  max-width: 62%;
+  padding-top: 80px;
+  margin-right: 3%;
+  font-size: 18px;
+  color: #595959;
+}
+.article ul{
+  padding-left: 180px;
+}
+.article ul li{
+  padding-top: 20px;
+  font-size: 20px;
+}
+.article div img{
+  width: 100%;
+  height: auto;
+}
+/*the section under the Article*/
+.last-one{
+  display: flex;
+}
+.f-section{
 
+}
+.h-f-section{
+  background: rgb(74, 155, 247);
+  color: white;
+}
+.b-f-section div div{
+  display: flex;
+}
+.s-section{
+  
+}
 /*another style*/
 @media screen and (max-width: 1248px) {
   body {
