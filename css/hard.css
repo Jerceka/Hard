@@ -244,10 +244,10 @@ article div{
 }
 /*the paragraph*/
 .idk{
-  height: 1400px;
+  height: auto;
 }
 .article div{
-  float: right;
+  margin-left: 35%;
   max-width: 62%;
   padding-top: 80px;
   margin-right: 3%;
@@ -268,19 +268,50 @@ article div{
 /*the section under the Article*/
 .last-one{
   display: flex;
+  max-width: 1270px;
+  margin: auto;
 }
 .f-section{
-
+width: 33%;
+margin-right: 2%;
 }
 .h-f-section{
-  background: rgb(74, 155, 247);
+  background: rgb(74, 155, 247);;
   color: white;
+  padding: 10px 0px 10px 10px;
+  font-size: 34px;
+  font-weight: bold;
 }
 .b-f-section div div{
   display: flex;
+  margin-top: 7px;
+}
+.l{
+  padding-top: 40px;
+  padding-left: 15px;
+  margin-left: 5px;
+  font-size: 18px;
+  color: #595959;
+}
+.d{
+  width: 60px;
+  height: 80px;
+  border-bottom: 4px solid rgb(74, 155, 247);
 }
 .s-section{
-  
+max-width: 62%;
+}
+.s-section div{
+  font-size: 18px;
+  color: #595959;
+  font-style: italic;
+}
+.share{
+  display: flex;
+  flex-wrap: wrap;
+}
+.share div{
+  margin: 0px 0.5%;
 }
 /*another style*/
 @media screen and (max-width: 1248px) {
