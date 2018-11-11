@@ -313,6 +313,54 @@ max-width: 62%;
 .share div{
   margin: 0px 0.5%;
 }
+/*the footer*/
+footer{
+  background:  #4d4d4d;
+  color: white;
+}
+.f-footer{
+  padding: 20px 0px;
+}
+.s-footer-center{
+  max-width: 1270px;
+  margin: auto;
+}
+.s-footer{
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #a6a6a6;
+  margin-bottom: 20px;
+}
+.s-footer div{
+  width: 200px;
+  margin-right: 10px;
+  text-align: left;
+  border-right: 2px solid #a6a6a6;
+}
+.s-footer div:nth-last-child(1n+5){
+  padding-bottom: 12px;
+}
+.s-footer div:nth-child(1n+19){
+  margin-bottom: 10px;
+}
+.reel, .cbbc, .taster{
+  border-right: none !important;
+}
+.f-footerLinks{
+  color: white;
+}
+.t-footer{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+}
+.s-footerLinks{
+  color: white;
+  padding-right: 20px;
+}
+.fo-footer{
+  padding-bottom: 10px;
+}
 /*another style*/
 @media screen and (max-width: 1248px) {
   body {
