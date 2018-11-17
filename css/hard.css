@@ -186,20 +186,23 @@ article div{
   left: 3%;
   right: 3%;
 }
+.title{
+  display: flex;
+  justify-content: center;
+}
 .author{
-  float: left;
   background: white;
-  padding: 10px 250px 10px 15px;
-  max-width: 35%;
+  padding: 10px 230px 10px 15px;
   font-weight: bold;
+  margin-right: 5px;
 }
 .right-part{
-  float: right;
+  margin-left: 5px;
 }
 .title-f-p{
   background: orange;
   color: white;
-  padding: 17px 70px 17px 15px;
+  padding: 17px 0px 17px 15px;
   font-size: 22px;
   font-weight: bold;
 }
@@ -228,6 +231,7 @@ article div{
 }
 .more-for-title-s-p{
   display: flex;
+  margin-right: 5px;
 }
 .more-for-title-s-p a{
   border: 2px solid rgb(75, 169, 237);
@@ -359,7 +363,7 @@ footer{
   padding-bottom: 10px;
 }
 /*another style*/
-@media screen and (max-width: 1345px) {
+/* @media screen and (max-width: 1345px) {
   .under-image{
     left: 2%;
     right: 2%;
@@ -371,6 +375,7 @@ footer{
     right: 1%;
   }
 }
+*/
 @media screen and (max-width: 1292px){
   header{
     max-width: 1000px;
@@ -395,7 +400,7 @@ nav div{
 .jerceka{
   font-size: 85px;
 }
-.under-image{
+/* .under-image{
   left: 10%;
   right: 10%;
 }
@@ -408,6 +413,7 @@ width: 660px;
 font-size: 20px;
 padding: 5px 0px 5px 12px
 }
+*/
 .title-s-p{
   font-size: 16px;
 }
