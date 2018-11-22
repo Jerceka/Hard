@@ -7,7 +7,9 @@ a{
   text-decoration: none;
   color: black;
 }
+
 /*Header*/
+
 header{
   display: flex;
   max-width: 1270px;
@@ -62,8 +64,11 @@ header div{
   padding-bottom: 6px;
   border-bottom: 5px solid rgb(0, 20, 45);
 }
-#more pre{
-  font-size: 16px;
+.l-culture{
+  display: none;
+}
+#more span{
+  padding-left: 45px;
 }
 #more:hover{
   padding-bottom: 5px;
@@ -88,11 +93,13 @@ header div{
 background-color: rgb(227, 228, 229);
 margin-left: 0px;
 border: none;
-height: 28px;
+height: 27px;
 width: 30px;
 font-size: 16px;
 }
+
 /*the list of more button*/
+
 #list-more{
   display: none;
   border-top: 0.5px solid lightblue;
@@ -130,7 +137,9 @@ font-size: 16px;
   margin-right: 40px;
   margin-top: 5px;
 }
+
 /*nav area*/
+
 nav{
   background: black;
 }
@@ -159,9 +168,11 @@ nav div div a{
 .first-nav a, .last-nav a{
   cursor: pointer;
 }
+
 /*Article will be to two part head and body*/
 /*head of Article will separate into part*/
 /*part for Image with Logo*/
+
 article div{
   position: relative;
 }
@@ -179,12 +190,14 @@ article div{
   color: white;
   text-align: center;
 }
+
 /*that part for header under the image*/
+
 .under-image{
   position: absolute;
   top: 93%;
-  left: 3%;
-  right: 3%;
+  left: 1%;
+  right: 1%;
 }
 .title{
   display: flex;
@@ -246,12 +259,14 @@ article div{
   font-weight: bold;
   padding: 5px 7px;
 }
+
 /*the paragraph*/
+
 .article div{
   margin-left: 35%;
   max-width: 62%;
   padding-top: 80px;
-  margin-right: 3%;
+  marging-right: 3%;
   font-size: 18px;
   color: #595959;
 }
@@ -266,14 +281,17 @@ article div{
   width: 100%;
   height: auto;
 }
+
 /*the section under the Article*/
+
 .last-one{
   display: flex;
   max-width: 1270px;
   margin: auto;
 }
 .f-section{
-width: 33%;
+max-width: 33%;
+width: 100%;
 margin-right: 2%;
 }
 .h-f-section{
@@ -300,21 +318,45 @@ margin-right: 2%;
   border-bottom: 4px solid rgb(74, 155, 247);
 }
 .s-section{
-max-width: 62%;
+max-width: 65.5%;
+margin: auto;
+}
+.s-section-main{
+  max-width: 97%;
+  margin: auto;
 }
 .s-section div{
   font-size: 18px;
   color: #595959;
   font-style: italic;
 }
-.share{
+.share-f{
   display: flex;
-  flex-wrap: wrap;
 }
-.share div{
-  margin: 0px 0.5%;
+.share-s{
+  display: flex;
 }
+.share-f div{
+  margin: 0px 5px;
+}
+.share-f-l{
+  height: 100%;
+  max-height: 52px;
+  width: 100%;
+  max-width: 270px;
+}
+.share-s div{
+  margin: 0px 6px;
+}
+.share-s-l{
+  height: 100%;
+  max-height: 52px;
+  width: 100%;
+  max-width: 266px;
+}
+
 /*the footer*/
+
 footer{
   background:  #4d4d4d;
   color: white;
@@ -323,7 +365,8 @@ footer{
   padding: 20px 0px;
 }
 .s-footer-center{
-  max-width: 1270px;
+  max-width: 95%;
+  width: 100%;
   margin: auto;
 }
 .s-footer{
@@ -338,14 +381,14 @@ footer{
   text-align: left;
   border-right: 2px solid #a6a6a6;
 }
-.reel, .cbbc, .taster{
-  border-right: none !important;
-}
 .s-footer div:nth-last-child(1n+5){
   padding-bottom: 12px;
 }
 .s-footer div:nth-child(1n+19){
   margin-bottom: 10px;
+}
+.s-footer div:nth-child(6n+6){;
+  border-right: none;
 }
 .f-footerLinks{
   color: white;
@@ -362,20 +405,9 @@ footer{
 .fo-footer{
   padding-bottom: 10px;
 }
+
 /*another style*/
-/* @media screen and (max-width: 1345px) {
-  .under-image{
-    left: 2%;
-    right: 2%;
-  }
-  }
-@media screen and (max-width: 1320px) {
-  .under-image{
-    left: 1%;
-    right: 1%;
-  }
-}
-*/
+
 @media screen and (max-width: 1292px){
   header{
     max-width: 1000px;
@@ -400,20 +432,17 @@ nav div{
 .jerceka{
   font-size: 85px;
 }
-/* .under-image{
-  left: 10%;
-  right: 10%;
+.under-image{
+  left: 2%;
+  right: 2%;
 }
 .author{
   padding: 10px 120px 10px 15px;
 }
 .title-f-p{
-padding: 17px 0px 17px 15px;
 width: 660px;
 font-size: 20px;
-padding: 5px 0px 5px 12px
 }
-*/
 .title-s-p{
   font-size: 16px;
 }
@@ -436,6 +465,7 @@ padding: 5px 0px 5px 12px
 }
 .article div{
   max-width: 55%;
+  padding-top: 100px;
 }
 .last-one{
   max-width: 1000px;
@@ -448,10 +478,6 @@ margin-right: 2%;
 .s-section{
 max-width: 68%;
 }
-.share div img{
-  height: 48px;
-  width: 210px;
-}
 .s-footer-center{
   max-width: 1000px;
   margin: auto;
@@ -461,8 +487,156 @@ max-width: 68%;
   margin-right: 8px;
 }
 }
+
+/* another style 1000 */
+
+@media screen and (max-width:1000px){
+header{
+  max-width: 900px;
+  margin: auto;
+}
+  header div{
+    padding: 10px 8px 10px 8px;
+  }
+.logo-header{
+  padding-right: 5px;
+}
+.id{
+    padding: 10px 12px 5px 12px
+  }
+.id2{
+  display: none;
+}
+.l-capital{
+  display: block;
+}
+.l-culture{
+  display: block;
+}
+.l-culture:hover{
+  padding-bottom: 6px;
+  border-bottom: 5px solid black;
+}
+#more span{
+  padding-left: 20px;
+}
+.search{
+  padding-left: 10px;
+}
+
+
+
+.middle-nav{
+  padding-right: 30px;
+}
+.first-nav{
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+
+.under-image{
+  left: 0px;
+  right: 0px;
+}
+.title{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.author{
+  margin-right: 0px;
+}
+.right-part{
+  margin-left: 0px;
+}
+.title-f-p{
+  max-width: 100%;
+  width: 100%;
+}
+.title-s-p{
+  font-size: 50px;
+  max-width: 99%;
+  margin: auto;
+}
+.logo-for-title-s-p{
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+}
+.logo-for-title-s-p a{
+  border-right: none;
+  padding-right: 0px;
+}
+.text-for-title-s-p{
+  display: none;
+}
+.more-for-title-s-p{
+  float: right;
+  position: absolute;
+  right: 5px;
+}
+.more-for-title-s-p div{
+  font-size: 55px;
+  padding: 4px 10px 0px 10px;
+}
+.more-for-title-s-p a{
+  border: 5px solid rgb(75, 169, 237);
+  padding-top: 0px;
+}
+
+
+.article div{
+  padding-top: 200px;
+  max-width: 90%;
+  margin: auto;
+}
+
+
+
+.last-one{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.s-section{
+  max-width: 90%;
+  margin: auto;
+}
+.f-section{
+  max-width: 90%;
+  width: 100%;
+  margin: auto;
+}
+
+footer{
+  margin-top: 10px;
+}
+.s-footer div:nth-child(5n+5){;
+  border-right: none;
+}
+.s-footer div:nth-child(6n+6){;
+  border-right: 2px solid #a6a6a6;
+}
+.s-footer-center{
+  max-width: 95%;
+  width: 100%;
+  margin: auto;
+}
+.t-footer{
+  column-count: 4;
+}
+
+
+}
 /*
-  @media screen and (max-width: 1248px) {
+this view for phone screen i think 5.5 inch
+@media screen and (max-width: 700px) {
+    body {
+      background: url("http://www.pupilo.tax/wp-content/uploads/2017/01/page-under-construction.png") no-repeat;
+      background-size: cover;
+      display: none;
+    }
+@media screen and (max-width: 1248px) {
     body {
       background: url("http://www.pupilo.tax/wp-content/uploads/2017/01/page-under-construction.png") no-repeat;
       background-size: cover;
