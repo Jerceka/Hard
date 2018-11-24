@@ -30,42 +30,46 @@ header div{
   font-size: 16px;
 }
 .id:hover{
+  padding-bottom: 4px;
   border-bottom: 5px solid rgb(58, 121, 224);
 }
 .l-home:hover{
-  padding-bottom: 6px;
+  padding-bottom: 5px;
   border-bottom: 5px solid rgb(58, 121, 224);
 }
 .l-news:hover{
-  padding-bottom: 6px;
+  padding-bottom: 5px;
   border-bottom: 5px solid rgb(73, 14, 30);
 }
 .l-sport:hover{
-  padding-bottom: 6px;
+  padding-bottom: 5px;
   border-bottom: 5px solid rgb(183, 209, 14);
 }
 .l-weather:hover{
-  padding-bottom: 6px;
+  padding-bottom: 5px;
   border-bottom: 5px solid rgb(80, 202, 229);
 }
 .l-shop:hover{
-  padding-bottom: 6px;
+  padding-bottom: 5px;
   border-bottom: 5px solid rgb(67, 132, 216);
 }
 .l-earth:hover{
-  padding-bottom: 6px;
+  padding-bottom: 5px;
   border-bottom: 5px solid black;
 }
 .l-travel:hover{
-  padding-bottom: 6px;
+  padding-bottom: 5px;
   border-bottom: 5px solid black;
 }
 .l-capital:hover{
-  padding-bottom: 6px;
+  padding-bottom: 5px;
   border-bottom: 5px solid rgb(0, 20, 45);
 }
 .l-culture{
   display: none;
+}
+#more{
+  padding-top: 7px;
 }
 #more span{
   padding-left: 45px;
@@ -376,7 +380,8 @@ footer{
   margin-bottom: 20px;
 }
 .s-footer div{
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   margin-right: 10px;
   text-align: left;
   border-right: 2px solid #a6a6a6;
@@ -405,6 +410,16 @@ footer{
 .fo-footer{
   padding-bottom: 10px;
 }
+
+
+@media screen and (max-width: 1342px){
+  .s-footer div{
+    max-width: 190px;
+    width: 100%;
+    )
+}
+
+
 
 /*another style*/
 
@@ -488,15 +503,16 @@ max-width: 68%;
 }
 }
 
-/* another style 1000 */
+/* another style 1000  culture*/
 
 @media screen and (max-width:1000px){
 header{
-  max-width: 900px;
+  max-width: 930px;
+  width: 100%;
   margin: auto;
 }
   header div{
-    padding: 10px 8px 10px 8px;
+    padding: 10px 12px;
   }
 .logo-header{
   padding-right: 5px;
@@ -507,6 +523,9 @@ header{
 .id2{
   display: none;
 }
+.l-home{
+  display: none;
+}
 .l-capital{
   display: block;
 }
@@ -514,7 +533,7 @@ header{
   display: block;
 }
 .l-culture:hover{
-  padding-bottom: 6px;
+  padding-bottom: 5px;
   border-bottom: 5px solid black;
 }
 #more span{
@@ -576,13 +595,13 @@ header{
   position: absolute;
   right: 5px;
 }
-.more-for-title-s-p div{
-  font-size: 55px;
-  padding: 4px 10px 0px 10px;
-}
 .more-for-title-s-p a{
   border: 5px solid rgb(75, 169, 237);
   padding-top: 0px;
+}
+.more-for-title-s-p div{
+  font-size: 55px;
+  padding: 4px 10px 0px 10px;
 }
 
 
@@ -626,6 +645,75 @@ footer{
   column-count: 4;
 }
 
+
+}
+
+/* another style */
+
+@media screen and (max-width:980px){
+header{
+  max-width: 860px;
+  width: 100%;
+  margin: auto;
+}
+.l-culture{
+  display: none;
+}
+.jerceka{
+  font-size: 75px;
+}
+
+}
+
+/* another style  */
+
+@media screen and (max-width:910px){
+header{
+    max-width: 780px;
+  }
+.l-capital{
+    display: none;
+  }
+.jerceka{
+  font-size: 65px;
+}
+.title-s-p{
+  font-size: 40px;
+}
+.more-for-title-s-p a{
+  border: 3px solid rgb(75, 169, 237);
+  padding: 0px 6px;
+}
+.more-for-title-s-p div{
+  font-size: 45px;
+}
+
+
+}
+
+/* 850000000000000000000000000000000000 */
+
+@media screen and (max-width:874px){
+
+.jerceka{
+  font-size: 60px;
+}.title-s-p{
+  font-size: 36px;
+}
+.more-for-title-s-p a{
+  border: 2px solid rgb(75, 169, 237);
+  padding: 0px 5px;
+}
+.more-for-title-s-p div{
+  font-size: 40px;
+}
+
+  .s-footer div:nth-child(5n+5){;
+    border-right: 2px solid #a6a6a6;
+  }
+  .s-footer div:nth-child(4n+4){;
+    border-right: none;
+  }
 
 }
 /*
