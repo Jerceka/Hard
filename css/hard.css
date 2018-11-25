@@ -172,7 +172,9 @@ nav div div a{
 .first-nav a, .last-nav a{
   cursor: pointer;
 }
-
+#black-menu{
+  display: none;
+}
 /*Article will be to two part head and body*/
 /*head of Article will separate into part*/
 /*part for Image with Logo*/
@@ -412,7 +414,7 @@ footer{
 }
 
 
-@media screen and (max-width: 1342px){
+@media all and (max-width: 1342px){
   .s-footer div{
     max-width: 190px;
     width: 100%;
@@ -423,7 +425,7 @@ footer{
 
 /*another style*/
 
-@media screen and (max-width: 1292px){
+@media all and (max-width: 1292px){
   header{
     max-width: 1000px;
     margin: auto;
@@ -505,7 +507,7 @@ max-width: 68%;
 
 /* another style 1000  culture*/
 
-@media screen and (max-width:1000px){
+@media all and (max-width:1000px){
 header{
   max-width: 930px;
   width: 100%;
@@ -543,7 +545,11 @@ header{
   padding-left: 10px;
 }
 
-
+.black{
+  max-width: 970px;
+  width: 100%;
+  margin: auto;
+}
 
 .middle-nav{
   padding-right: 30px;
@@ -650,7 +656,7 @@ footer{
 
 /* another style */
 
-@media screen and (max-width:980px){
+@media all and (max-width:980px){
 header{
   max-width: 860px;
   width: 100%;
@@ -658,6 +664,10 @@ header{
 }
 .l-culture{
   display: none;
+}
+.black{
+  max-width: 900px;
+  width: 100%;
 }
 .jerceka{
   font-size: 75px;
@@ -667,12 +677,15 @@ header{
 
 /* another style  */
 
-@media screen and (max-width:910px){
+@media all and (max-width:910px){
 header{
     max-width: 780px;
   }
 .l-capital{
     display: none;
+  }
+  .black{
+    max-width: 810px;
   }
 .jerceka{
   font-size: 65px;
@@ -693,11 +706,12 @@ header{
 
 /* 850000000000000000000000000000000000 */
 
-@media screen and (max-width:874px){
+@media all and (max-width:874px){
 
 .jerceka{
   font-size: 60px;
-}.title-s-p{
+}
+.title-s-p{
   font-size: 36px;
 }
 .more-for-title-s-p a{
@@ -716,15 +730,145 @@ header{
   }
 
 }
+
+
+@media all and (max-width:810px){
+
+header{
+  max-width: 720px;
+}
+  .l-travel{
+    display: none;
+  }
+.black{
+  max-width: 750px;
+}
+
+
+
+
+}
+
+
+@media all and (max-width:750px){
+header{
+  max-width: 660px;
+}
+  .l-earth{
+    display: none;
+  }
+  .black{
+    max-width: 690px;
+  }
+.black div:nth-last-child(0n+2){
+  display: none;
+}
+.jerceka{
+  font-size: 50px;
+}
+.title-s-p{
+  font-size: 32px;
+  padding: 4px 0 0px 15px;
+}
+.more-for-title-s-p a{
+  padding: 0px 4px;
+}
+.more-for-title-s-p div{
+  font-size: 34px;
+}
+
+}
+
+@media all and (max-width:710px){
+  header{
+    max-width: 660px;
+  }
+  nav div div{
+    padding: 15px 0px;
+  }
+.middle-nav{
+  display: none;
+}
+#black-menu{
+  display: block;
+  color: white;
+  position: absolute;
+  right: 0%;
+  cursor: pointer;
+  padding: 13.5px 25px 13.5px 10px;
+}
+#black-menu span{
+  margin: 0 2px;
+}
+#black-menu:hover{
+  background-color: #333333;
+}
+#black-menu:active{
+  background-color: #333333;
+}
+#black-menu-list{
+  background-color: #333333;
+}
+#black-menu-list div{
+  max-width: 95%;
+  width: 100%;
+  margin: auto;
+  border-bottom: 1px solid #595959;
+  padding: 10px 0;
+}
+#black-menu-list div a{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+}
+
+@media all and (max-width:685px){
+  header{
+    max-width: 600px;
+  }
+  .l-shop{
+    display: none;
+  }
+.first-nav{
+  padding-left: 35px;
+}
+
+
+}
+
+@media all and (max-width:703px){
+  .s-footer div:nth-child(4n+4){;
+    border-right: 2px solid #a6a6a6;
+  }
+  .s-footer div:nth-child(3n+3){;
+    border-right: none;
+  }
+  .s-footer div:nth-child(2n+1){;
+    margin-bottom: 0;
+  }
+}
+
+
+@media all and (max-width:630px){
+  header{
+    max-width: 525px;
+  }
+  .l-weather{
+    display: none;
+  }
+}
 /*
 this view for phone screen i think 5.5 inch
-@media screen and (max-width: 700px) {
+@media all and (max-width: 700px) {
     body {
       background: url("http://www.pupilo.tax/wp-content/uploads/2017/01/page-under-construction.png") no-repeat;
       background-size: cover;
       display: none;
     }
-@media screen and (max-width: 1248px) {
+@media all and (max-width: 1248px) {
     body {
       background: url("http://www.pupilo.tax/wp-content/uploads/2017/01/page-under-construction.png") no-repeat;
       background-size: cover;

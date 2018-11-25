@@ -101,15 +101,30 @@
     </div>
     </div>
     <nav>
-      <div>
+      <div class="black">
       <div class="first-nav"><a>LOGO</a></div>
       <div class="middle-nav"><a>What is JERCEKA future</a></div>
       <div class="middle-nav"><a>Lastest</a></div>
       <div class="middle-nav"><a>Video</a></div>
       <div class="middle-nav"><a>Best of Jerceka</a></div>
       <div class="last-nav"><a>Future Now</a></div>
+      <div id="black-menu"><span>Menu</span><span>&#9776;</span></div>
     </div>
     </nav>
+    <script>
+        $(document).ready(function(){
+            $("#black-menu").click(function(){
+                $("#black-menu-list").slideToggle(300);
+            });
+        });
+      </script>
+    <div id="black-menu-list" style="display:none;">
+      <div><a>What is JERCEKA future</a></div>
+      <div><a>Lastest</a></div>
+      <div><a>Video</a></div>
+      <div><a>Best of Jerceka</a></div>
+      <div><a>Future Now</a></div>
+    </div>
     <article>
       <div>
         <div class="a-h-image">
