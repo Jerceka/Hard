@@ -24,7 +24,7 @@ header div{
   padding: 6px 15px 0px 0px;
 }
 .id{
-  padding: 10px 100px 5px 15px
+  padding: 10px 100px 5px 15px;
 }
 .id a pre{
   font-size: 16px;
@@ -775,6 +775,7 @@ header{
 }
 .more-for-title-s-p div{
   font-size: 34px;
+  padding: 3px 7px 0px 7px;
 }
 
 }
@@ -783,8 +784,18 @@ header{
   header{
     max-width: 660px;
   }
+  .black{
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+  }
   nav div div{
     padding: 15px 0px;
+  }
+  .first-nav{
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
   }
 .middle-nav{
   display: none;
@@ -792,8 +803,6 @@ header{
 #black-menu{
   display: block;
   color: white;
-  position: absolute;
-  right: 0%;
   cursor: pointer;
   padding: 13.5px 25px 13.5px 10px;
 }
@@ -825,6 +834,34 @@ header{
 
 }
 
+@media all and (max-width:703px){
+  .title-f-p{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+  }
+  .title-s-p{
+    font-size: 28px;
+  }
+  .more-for-title-s-p a{
+    padding: 0px 2px;
+    font-size: 30px;
+  }
+  .more-for-title-s-p div{
+    font-size: 30px;
+  }
+  .s-footer div:nth-child(4n+4){;
+    border-right: 2px solid #a6a6a6;
+  }
+  .s-footer div:nth-child(3n+3){;
+    border-right: none;
+  }
+  .s-footer div:nth-last-child(1n+2){;
+    margin-bottom: 0;
+  }
+}
+
+
 @media all and (max-width:685px){
   header{
     max-width: 600px;
@@ -832,46 +869,165 @@ header{
   .l-shop{
     display: none;
   }
-.first-nav{
-  padding-left: 35px;
-}
 
 
 }
-
-@media all and (max-width:703px){
-  .s-footer div:nth-child(4n+4){;
-    border-right: 2px solid #a6a6a6;
-  }
-  .s-footer div:nth-child(3n+3){;
-    border-right: none;
-  }
-  .s-footer div:nth-child(2n+1){;
-    margin-bottom: 0;
-  }
-}
-
 
 @media all and (max-width:630px){
   header{
-    max-width: 525px;
+    max-width: 550px;
   }
-  .l-weather{
+  header div{
+    padding: 5px 11px;
+  }
+  .logo-header{
+    padding-top: 0px;
+  }
+  .id{
+    padding-top: 4px;
+  }
+  .id:hover{
+    padding-bottom: 0px;
+  }
+  .l-news:hover{
+    padding-bottom: 0px;
+  }
+  .l-sport:hover{
+    padding-bottom: 0px;
+  }
+  .l-weather:hover{
+    padding-bottom: 0px;
+  }
+  .l-shop{
+    display: block;
+  }
+  .l-shop:hover{
+    padding-bottom: 0px;
+  }
+  .l-earth{
+    display: block;
+  }
+  .l-earth:hover{
+    padding-bottom: 0px;
+  }
+  .search form input{
     display: none;
   }
+  #more{
+    padding-top: 3px;
+  }
+  #more:hover{
+    padding-bottom: 0px;
+  }
+#more span{
+  padding-left: 10px;
 }
-/*
-this view for phone screen i think 5.5 inch
-@media all and (max-width: 700px) {
-    body {
-      background: url("http://www.pupilo.tax/wp-content/uploads/2017/01/page-under-construction.png") no-repeat;
-      background-size: cover;
-      display: none;
-    }
-@media all and (max-width: 1248px) {
-    body {
-      background: url("http://www.pupilo.tax/wp-content/uploads/2017/01/page-under-construction.png") no-repeat;
-      background-size: cover;
-      display: none;
-    }
-    */
+.search{
+  padding-top: 5px;
+}
+.search form button{
+background-color: rgb(227, 228, 229);
+height: 0px;
+}
+.jerceka{
+  font-size: 40px;
+}
+.title-s-p{
+  font-size: 24px;
+}
+.more-for-title-s-p a{
+  font-size: 26px;
+}
+.more-for-title-s-p div{
+  font-size: 26px;
+  padding: 3px 5px 0px 5px;
+}
+.article ul{
+  padding-left: 30px;
+}
+
+}
+
+@media all and (max-width: 565px){
+header{
+  max-width:500px;
+}
+.l-earth{
+  display: none;
+}
+.jerceka{
+  font-size: 30px;
+}
+.search form input{
+  max-width: 40px;
+  width: 100%;
+}
+}
+@media all and (max-width: 531px){
+  .s-footer div:nth-child(3n+3){;
+    border-right: 2px solid #a6a6a6;
+  }
+  .s-footer div:nth-child(2n+2){
+    border-right: none;
+  }
+  .s-footer div:nth-last-child(0n+3){
+    padding-bottom: 12px;
+  }
+  .s-footer div:nth-last-child(0n+2){
+    margin-bottom: 12px;
+  }
+}
+
+@media all and (max-width: 510px){
+header{
+max-width: 450px;
+}
+.l-shop{
+  display: none;
+}
+
+
+
+
+}
+
+@media all and (max-width:455px){
+header{
+  max-width: 365px;
+}
+.l-weather{
+  display: none;
+}
+
+}
+@media all and (max-width:380px){
+header{
+max-width: 310px;
+}
+  .l-sport{
+    display: none;
+  }
+.jerceka{
+  font-size: 26px;
+}
+
+
+
+}
+@media all and (max-width:360px){
+  .s-footer div:nth-child(2n+1){
+    border-right: none;
+  }
+}
+@media all and (max-width:320px){
+  header{
+    max-width: 320px;
+  }
+  header div{
+    padding: 5px 8px;
+  }
+  .logo-header h2{
+    font-size: 18px;
+    padding-top: 3px;
+  }
+}
