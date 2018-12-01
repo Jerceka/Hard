@@ -105,7 +105,7 @@ font-size: 16px;
 /*the list of more button*/
 
 #list-more{
-  display: block;
+  display: none;
   border: 0.5px solid lightblue;
 }
 .list-more-boxes{
@@ -344,19 +344,19 @@ margin: auto;
   margin: 0px 5px;
 }
 .share-f-l{
-  height: 100%;
-  max-height: 52px;
+  /* height: 100%; */
+  height: 52px;
   width: 100%;
-  max-width: 270px;
+  max-width: 265px;
 }
 .share-s div{
   margin: 0px 6px;
 }
 .share-s-l{
-  height: 100%;
-  max-height: 52px;
+  /* height: 100%; */
+  height: 52px;
   width: 100%;
-  max-width: 266px;
+  max-width: 265px;
 }
 
 /*the footer*/
@@ -1113,7 +1113,20 @@ max-width: 310px;
 .jerceka{
   font-size: 26px;
 }
-
+.share-f{
+ display: flex;
+ flex-direction: column;
+}
+.share-s{
+ display: flex;
+ flex-direction: column;
+}
+.share-f-l{
+  max-width: 310px;
+}
+.share-s-l{
+  max-width: 310px;
+}
 
 
 }
